@@ -1,0 +1,10 @@
+Image
+Attributes - src, height , width, alt
+
+marquee
+Attributes:
+
+Direction=””  --	Up/down/left/right
+Behavior=”” -- 	Alternate/scroll/slide
+Loop=”” --	1/2/3….
+Bgcolor=”” --	Red/yellow/any color

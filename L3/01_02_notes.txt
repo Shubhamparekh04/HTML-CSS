@@ -1,0 +1,9 @@
+Anchore Tag:Can convert Image/text to hyperlink to open webpage (target="_blank" attribute use for open webpage in new tab)
+<a href="url"></a>- Inline element
+
+Relative path: File will be in current foler -> To search file in current directory: "./filename"
+Absolute path : Need to provide address from root -> To go to root directort ../file name or folder name in which intended file is saved
+
+
+
+

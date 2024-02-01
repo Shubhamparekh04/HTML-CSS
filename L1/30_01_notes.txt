@@ -1,0 +1,23 @@
+1. HTML: it's Markup language to put content on webpage 
+
+2. Structure:
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>   </head>
+   <body>   </body>
+</html>
+
+3. Elements/Tags/attributes
+
+Elements = <opening tag> + content + </closing tag>
+Tags = Buiilding blocks of HTML
+Attributes = Property of that perticular tag
+
+4. Inline/Block Elements
+
+Inline :When execute only occupy required space only in single line width on screen. Ex: <img> / <a></a> / <strong></strong>
+Block : Will start from new line, It occupy entire width of the line on screen. Ex. <p></p> / <h1>-<h6>
+
+
+
