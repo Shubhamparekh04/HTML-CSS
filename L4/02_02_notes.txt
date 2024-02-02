@@ -1,3 +1,31 @@
-Form Tag:
+<form></from>:
 
-Attributes:
+
+    a.	The <form> element acts as a container for various form elements like text fields, checkboxes, radio buttons, and buttons.
+    b.	The action attribute specifies the URL where the form data will be sent when submitted.
+    c.	Inside the form, you have various form elements like <input type=”” name=””placeholder=”” required id=”” value=” ”>(self-closing), <textarea>, and <label>, <button type=”submit”></button>
+    d.	The <label> element in HTML is used to associate a label with a form control, such as an <input>, <textarea>, <select>, or <button>.
+        i.	providing a clearer relationship between the label and the form element.
+    e.	id=”” attribute :
+        i.	 The id attribute is used to identify specific HTML elements.
+        ii.	Each id attribute's value must be unique from all other id values for the entire page.
+
+    f.	<fieldset></fieldset>
+        i.	The form elements (labels, inputs, and textarea) are placed inside the <fieldset>
+    g.	<legend></legend>:
+        i.	provides a caption for the <fieldset>, helping to describe the purpose or context of the grouped elements.
+
+<figure> for image = <fieldset> for form input controls & labels
+<figcaption>=<legend>
+
+
+How to associate input control with label:
+[1]. 
+<label> <input  type=”checkbox” id=”loving”>Loving</label>
+
+OR
+
+[2].
+<input type=”checkbox” id=”loving”>
+<label for=”loving(id)”>Loving</label>
+
