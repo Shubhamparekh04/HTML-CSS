@@ -1,0 +1,25 @@
+<Table> </Table>:
+
+<tr></tr> = Table row 
+<th></th> = Table Heading
+<td></td> = Table data
+
+<Table border="1">- will create border around.
+
+rwnv1shivendrad/html-10
+-----------------------------------------------------------------------------------
+:Table structure:
+
+<table>
+
+<thead> <tr>  <th>Title 1</th> <th>Title 2</th> <th>Title 3</th>  </tr></thead>
+
+<tbody>
+
+<tr> <td>Name</td> <td>Surname</td> <td>Marks</td> </tr>
+<tr> <td>Name</td> <td>Surname</td> <td>Marks</td> </tr>
+<tr> <td>Name</td> <td>Surname</td> <td>Marks</td> </tr>
+
+</tbody>
+
+</table>

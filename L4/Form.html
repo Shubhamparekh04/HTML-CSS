@@ -4,60 +4,52 @@
         <title>FORM</title>
     </head>
 
-    <body>
+<body bgcolor="burlywood">
+ 
+<center><marquee width="300px" behavior="slide" direction="up"><h1>Novell Services Login</h1></marquee>
+    <hr>
+    <div>
+        <table>    
+            <tr><th align="left">Username :</th><td><input type="text" placeholder="Username" required></td></tr>
+            <tr><th align="left">Password :</th><td><input type="password" placeholder="Type Password" required></td></tr>
+            <tr><th>City of employment :</th><td><input type="text" placeholder="City of Employment" required></td></tr>
+        </table>    
+    </div>
 
-    <form>
-        <center>
-        <h1>Novell Services Login</h1>
+    <div>
+    <br><label for="cars"><strong>Car :</strong></label>
+            <select name="cars">
+                <option default>Choose Your Option</option>
+                <option value="saab">Saab</option>
+                <option value="BMW">BMW</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+    </div>   
+    
+    <fieldset>
+            <legend>Please Specify Your Role: </legend>
+            <label><input type="radio" name="1">Admin</label>
+            <label><input type="radio" name="1">Engineer</label>
+            <label><input type="radio" name="1">Manager</label>
+            <label><input type="radio" name="1">Guest</label>
+    </fieldset>
 
-            <div>
-                  <div>
-                  <font>Username :</font>
-                  <input type="text" placeholder="Name" required>
-                  </div>
+    <div>
+   
+            <h3>Single Sign-on to the following:</h3>
+            <label ><input type="checkbox">Mail</label>
+            <label><input type="checkbox">Payroll</label>
+            <label><input type="checkbox">Self-Service</label>
+   
+    </div><br>
+    
+        <!-- <input type="submit" value="submit"/> -->
+        <button type="submit"><font size="4">Login</font></button>&emsp;
+        <!-- <input type="reset" value="reset"/> -->
+        <button type="reset"><font size="4">Reset</font>
 
-                  <div>
-                  <font>Password :</font>
-                  <input type="password" placeholder="Type Password" required>
-                  </div>
-
-                  <div>
-                  <font>City of Employment :</font>
-                  <input type="text" placeholder="City of Employment" required>
-                  </div>
-                  <div>
-                <label for="web Server">Cars</label>
-
-                <select name="web server">
-                    <option default>choose your option</option>
-                    <option value="saab">Saab</option>
-                    <option value="BMW">BMW</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-                </div>
-                <p></p>
-            </div>
-
-            <div>
-                <h3>Please Specify Your Role: </h3>
-                <p><label for="admin">Admin</label><input type="radio" name="1"></p>
-                <p><label for="Engineer">Engineer</label><input type="radio" name="1"></p>
-                <p><label for="Manager">Manager</label><input type="radio" name="1"></p>
-                <p><label for="Guest">Guest</label><input type="radio" name="1"></p>
-            </div>
-
-            <div>
-                <h3>Single Sign-on to the following:</h3>
-                <p><label>Mail</label><input type="checkbox"></p>
-                <p><label>Payroll</label><input type="checkbox"></p>
-                <p><label>Self-Service</label><input type="checkbox"></p>
-            </div>
-
-            <button type="submit"><font size="4">Login</font></button>&emsp;
-            <button type="reset"><font size="4">Reset</font>
-                <center>  
-    </form>
-        
-    </body>
+ </form>
+</center> 
+</body>
 </html>

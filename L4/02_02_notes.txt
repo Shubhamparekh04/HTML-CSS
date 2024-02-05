@@ -28,4 +28,7 @@ OR
 [2].
 <input type=”checkbox” id=”loving”>
 <label for=”loving(id)”>Loving</label>
+-------------------------------------------------------------------------------------------------
 
+
+<textarea></textarea>--> kind of feedback area with big field,input is visible 
