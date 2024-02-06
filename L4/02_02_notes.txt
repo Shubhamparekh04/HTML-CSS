@@ -15,8 +15,16 @@
     g.	<legend></legend>:
         i.	provides a caption for the <fieldset>, helping to describe the purpose or context of the grouped elements.
 
-<figure> for image = <fieldset> for form input controls & labels
+
+
+
+<figure> for image = <fieldset>   for form input controls & labels
 <figcaption>=<legend>
+
+/* <article></article> & inside <p></p> can be use. */
+
+
+
 
 
 How to associate input control with label:
