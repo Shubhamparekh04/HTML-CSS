@@ -1,10 +1,67 @@
-@font-face {
-    font-family:"shubham";
-    src: url(./Anta/Anta-Regular.ttf);
+@font-face{
+  font-family: "shubham";
+  src: url("./Anta/Anta-Regular.ttf");
 }
 
 h1{
-    font-family: shubham;
-    text-indent: 50%;
-    /* text-align: center; */
+  font-family: "shubham";
+  text-align: center;
+  text-transform:uppercase;
 }
+
+
+body{
+  /* height: 100vh; */
+  background-color: rgba(39, 19, 78, 0.294);
+  margin-top: 100px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin: auto; */
+
+}
+
+
+.parent{
+  
+  display: flex;
+  /* column-gap: 12px; */
+  /* margin: auto; */
+}
+
+.page1{
+  background: rgb(254, 254, 254);
+  background: linear-gradient(130deg, rgb(255, 255, 255) 0%, rgba(139, 142, 166, 0.718) 29%, rgb(255, 255, 255) 100%);
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin-left: 200px;
+  border: none;
+  padding: 30px;
+  gap: 20px;
+}
+
+.page2{
+  background: rgb(254, 254, 254);
+  background: linear-gradient(130deg, rgb(255, 255, 255) 0%, rgba(139, 142, 166, 0.718) 29%, rgb(255, 255, 255) 100%);
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  padding: 45px;
+}
+
+.btn{
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(127, 255, 212, 0.231);
+}
+
+.inp{
+  padding: 10px;
+  border: 0;
+  border-radius: 20px;
+  width: 290px;
+  margin: auto;
+}
+
