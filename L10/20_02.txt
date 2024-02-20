@@ -1,0 +1,6 @@
+Custom font: to keep font on server.
+1.font face-
+    @font-face{
+        font-family: shubham;
+        src:url(google fonts import)
+    }

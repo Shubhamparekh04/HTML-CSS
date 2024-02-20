@@ -1,0 +1,9 @@
+Wire frame:
+- A wireframe in HTML is a skeletal framework or blueprint of a webpage's structure.
+- It consists of basic HTML elements like divs, headers, sections, and others.
+- Wireframes lack visual design elements such as colors, images, or detailed styling.
+- They are used early in the design process to plan layout and content organization.
+- Wireframes help designers and developers visualize the functionality and flow of a website or application.
+- Placeholder text, like "Lorem Ipsum," is often used to represent content.
+- Wireframes facilitate effective communication and collaboration among project stakeholders.
+

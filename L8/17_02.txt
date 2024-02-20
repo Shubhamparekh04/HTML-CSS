@@ -1,0 +1,28 @@
+DT: 17-02-24
+
+Cascading style sheet(CSS3): version - 3
+1.inline- precedence 1
+2.internal- precedence 2
+3.external- precedence 3
+
+
+3 types of CSS selector:
+1.tag 
+2.id(#)
+3.class(.)
+
+
+Difference of ID & Class:
+------------------------
+
+ID - for perticular element- it has more precedence than class
+Class- for group of elements. - it has more precedence than tag
+
+
+if there is inline as well so among all more precedence is of INLINE.
+
+summary (specificity hierarchy)
+1.inline
+2.ID
+3.Class
+4.tag

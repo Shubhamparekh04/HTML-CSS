@@ -1,0 +1,9 @@
+What is html ?
+what is markup language? = text formatting language is called markup language.
+What is void element ?
+what is diff btw source/href ?
+what is html entities ?  i.e: ">", <, >, &, and ", as well as special characters like accented letters, mathematical symbols, and emojis.
+why is form element required ? = They allow websites to interact with users by collecting data from them, such as filling out a survey or signing up for a newsletter. 
+Form attributes ? action= Specifies the URL where the form data should be submitted when the form is submitted. , method = get/post
+attributes of table ? width
+href= sorce & hyperlink - src = only sorce not hyperlink
