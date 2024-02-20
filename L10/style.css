@@ -11,9 +11,9 @@ h1{
 
 
 body{
-  /* height: 100vh; */
+  height: 100vh;
   background-color: rgba(39, 19, 78, 0.294);
-  margin-top: 100px;
+  margin-top: 70px;
   /* display: flex; */
   /* flex-direction: column; */
   /* margin: auto; */
@@ -34,7 +34,7 @@ body{
   display: flex;
   flex-direction: column;
   width: 360px;
-  margin-left: 200px;
+  margin-left: 125px;
   border: none;
   padding: 30px;
   gap: 20px;
@@ -55,6 +55,7 @@ body{
   padding: 10px;
   border-radius: 20px;
   background-color: rgba(127, 255, 212, 0.231);
+  border: 2px solid black;
 }
 
 .inp{
@@ -63,5 +64,6 @@ body{
   border-radius: 20px;
   width: 290px;
   margin: auto;
+  border: 2px solid black;
 }
 
