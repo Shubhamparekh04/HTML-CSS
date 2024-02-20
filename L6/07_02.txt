@@ -5,17 +5,9 @@
 attributes: control/autoplay/muted/loop
 
 
-<videdo controls>
+<video controls>
     <source src="url"/>
 </vieo>
 
 <iframe>if need to include other web page / it will load in same page</iframe>
 
-<header>
-
-    <article>
-        <h1></h1>
-        <p></p>
-    </article>
-    
-</header>
