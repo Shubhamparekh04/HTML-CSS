@@ -2,12 +2,30 @@
 <html>
     <head>
         <title>FORM</title>
+        <style>
+            #odiv{
+                width: fit-content;
+                display: flex;
+                margin: auto;
+
+            }
+
+            form{
+                background-color: rgba(250, 242, 242, 0.409);
+                padding: 15px;
+            }
+            input{
+                margin: 8px;
+            }
+        </style>
     </head>
 
 <body bgcolor="burlywood">
- 
+ <div id="odiv" >
 <center><marquee width="300px" behavior="slide" direction="up"><h1>Novell Services Login</h1></marquee>
     <hr>
+    
+    <form action="">
     <div>
         <table>    
             <tr><th align="left">Username :</th><td><input type="text" placeholder="Username" required></td></tr>
@@ -17,7 +35,7 @@
     </div>
 
     <div>
-    <br><label for="cars"><strong>Car :</strong></label>
+    <label for="cars"><strong>Car:</strong></label>
             <select name="cars">
                 <option default>Choose Your Option</option>
                 <option value="saab">Saab</option>
@@ -52,4 +70,5 @@
  </form>
 </center> 
 </body>
+</div>
 </html>
