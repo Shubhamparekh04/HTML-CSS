@@ -8,7 +8,7 @@ Properties:
 3.color: 
 4.font-weight:  100-900
 5.text-align: right/center/left
-6.line-height: by default 32px
+6.line-height: marging from top  bottom of text & rcv height
 7.Letter-spacing : px
 8.word-spacing: px
 9.text-decoration: underline/dotted underline/weavy
