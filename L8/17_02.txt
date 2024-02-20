@@ -9,7 +9,7 @@ Cascading style sheet(CSS3): version - 3
 3 types of CSS selector:
 1.tag 
 2.id(#)
-3.class(.)
+3.class(.) 
 
 
 Difference of ID & Class:
