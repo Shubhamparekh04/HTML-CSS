@@ -1,4 +1,10 @@
 @font-face {
+    font-family:"shubham";
+    src: url(./Anta/Anta-Regular.ttf);
+}
+
+h1{
     font-family: shubham;
-    src: url();
+    text-indent: 50%;
+    /* text-align: center; */
 }
