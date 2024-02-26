@@ -1,0 +1,58 @@
+body{
+    background-image: url(./sun.jpg);
+    background-color: purple;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.page1{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+    width: 330px;
+    gap: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(102, 100, 173, 0.394) 0%, rgba(201, 105, 201, 0.476) 35%, rgba(84, 176, 195, 0.521) 100%);
+}
+
+label{
+    margin: 0px 0px 0px 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 250px;
+    height:25px;
+    border-radius: 10px;
+    margin: 5px 40px;
+}
+
+input[value="Login"]{
+
+    height: 30px;
+    width: 150px;
+    gap: 5px;
+    margin: 0px 100px;
+}
+
+#dg{
+    margin-top: 15px;
+}

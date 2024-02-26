@@ -1,0 +1,41 @@
+
+                                          ||Background||
+           ------------------------------------------------------------------------------------ 
+          |Color, Gradirents, Position, Size, Attachment, Repeat, Image, Background-Blend- Mode|
+           ------------------------------------------------------------------------------------
+
+1. Background-color:
+    three ways:
+        (a). Hexa code
+        (b). Name
+        (c). RGB color
+
+2. Gradients:
+    Go to website & for background gradiant color copy code & paste.
+
+3. Background-Position:
+    background-position: left top;/right top/ center center/ 
+                            x(bottom left to  right)  y(top to down)
+
+4. background-size:
+    :cover; - Ensures the background image covers the entire container area, possibly cropping parts of the image to fit.
+
+    :contain; - Ensures the entire background image is visible within the container without cropping, potentially leaving empty space around the edges.
+
+    :Auto; - Images actual height width will occure.
+
+    x (150px) y (300px) or can be in 50%(x-width) 80%(y-height)
+
+5. Background-Attachment:
+    (a). Scroll (by default)
+    (b). fixed it will fix the background 7 text and other elements on top free to scroll.
+
+6. Background-Blend-Mode: it combine shade & background images
+
+   Background-image: linear-gradiant(to right , red, yellow), url (image path)
+   Background-Blend-Mode: overlay/darken
+
+
+
+
+
