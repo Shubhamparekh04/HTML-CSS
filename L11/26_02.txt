@@ -22,7 +22,7 @@
 
     :contain; - Ensures the entire background image is visible within the container without cropping, potentially leaving empty space around the edges.
 
-    :Auto; - Images actual height width will occure.
+    :Auto; - Images actual height width will be set.
 
     x (150px) y (300px) or can be in 50%(x-width) 80%(y-height)
 
