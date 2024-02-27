@@ -1,0 +1,21 @@
+:Box model:
+    content
+    border
+    margin :space between elements
+    padding: space between border & content.
+
+    T R B L
+
+    Box-sizing:border-box;  will exclude the [border+ padding]
+
+    by default value: content-box.
+
+    height+padding+border= actual height
+    width+padding+border= actual width
+
+
+Display:    
+
+1. inline
+2. block
+3. inline-block

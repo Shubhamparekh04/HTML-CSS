@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        h1{
+            margin: 0px;
+            padding: 0;
+            border: 1px solid black;
+        }
+
+        #first{
+            height: 200px;
+            width: 200px;
+            padding: 50px 50px 50px 50px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            
+        }
+
+        #second{
+
+            height: 200px;
+            width: 200px;
+            padding: 50px 50px 50px 50px;
+            /* box-sizing: border-box; */
+
+        }
+    </style>
+</head>
+<body>
+    <h1 id="first">Hello</h1>
+    <h1 id="second">World</h1>
+</body>
+</html>
