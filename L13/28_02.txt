@@ -1,0 +1,8 @@
+height: min / max
+width: min / max
+
+Max:100px =  below 100px style will be apply
+
+
+Max-Width:    telling an element, "You can be as small as you want, but don't get any bigger than this specific size."
+Min-width:    telling an element, "You can be as wider as you want, but don't get any narrower than this specific size."

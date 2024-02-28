@@ -1,0 +1,25 @@
+/* #container1{
+background-color: red;
+border: 3px solid black;
+height: 200px;
+max-width: 800px;
+}
+
+#container2{
+    background-color: blue;
+    border: 3px solid black;
+    height: 200px;
+    min-width: 800px;
+}
+ */
+
+body{
+    height: 100vh;
+    border:3px solid green;
+    margin: 10px;
+}
+ #container1{
+    border: 3px solid black;
+    max-height: 800px;
+    max-width: 200px;
+ }
