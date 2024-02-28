@@ -1,6 +1,6 @@
 body{
     background-image: url(./sun.jpg);
-    background-color: purple;
+    /* background-color: purple; */
     background-blend-mode: lighten;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,12 +23,14 @@ body{
     height: 320px;
     width: 330px;
     gap: 10px;
-    border: 1px solid black;
+    border: 5px solid white;
     justify-content: center;
     border-radius: 20px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(102, 100, 173, 0.394) 0%, rgba(201, 105, 201, 0.476) 35%, rgba(84, 176, 195, 0.521) 100%);
+  
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
 }
+
 
 label{
     margin: 0px 0px 0px 10px;

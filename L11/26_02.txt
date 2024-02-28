@@ -28,7 +28,7 @@
 
 5. Background-Attachment:
     (a). Scroll (by default)
-    (b). fixed it will fix the background 7 text and other elements on top free to scroll.
+    (b). fixed - it will fix the background. text and other elements on top free to scroll.
 
 6. Background-Blend-Mode: it combine shade & background images
 
