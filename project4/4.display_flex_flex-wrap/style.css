@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin: 0px;
+    /* padding: 10px; */
+}
+
+#parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+}
+
+.black{
+    background-color: black;
+}

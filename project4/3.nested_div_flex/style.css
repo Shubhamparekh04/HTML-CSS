@@ -1,0 +1,19 @@
+.container{
+    width: 400px; 
+    height: 400px; 
+    border: 1px solid black;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+}
+
+.blk{
+    background-color: black;
+}
+
+.outerbox{
+    display: flex;
+}
+

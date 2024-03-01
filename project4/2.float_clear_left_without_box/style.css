@@ -1,0 +1,19 @@
+.square{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.karu{
+    background-color: black;
+}
+
+.dhoru{
+    background-color: white;
+}
+
+#sfirst{
+    clear: left;
+}
+
