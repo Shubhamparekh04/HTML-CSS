@@ -1,0 +1,25 @@
+
+/* 1. Decendent (space) Can target child as well as grand-child */
+
+/* article  p{
+    background-color: blue;    
+}  */
+
+
+/* 2. Child(>) can target child as well as grand child */
+
+/* article > p{
+    background-color: blue;    
+}  */
+
+/* 3. Adjecent(+) can target immidiet sibling only */
+
+/* article + p{
+    background-color: blue;    
+}  */
+
+/* 4. General sibling(~) can target immidiet sibling as well as other element also on same level */
+
+/* article ~ p{
+    background-color: blue;    
+}  */

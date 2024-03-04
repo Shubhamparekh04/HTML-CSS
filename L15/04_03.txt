@@ -1,0 +1,10 @@
+Combinators: symbols for specifying relationships between HTML elements in a single line, facilitating targeted styling based on hierarchy or position within the document structure.
+------------------------------------------------
+
+1. Decendent (space): Selects elements that are like "children" or "grandchildren" of another element.
+
+2. Child selector(>):  is like picking out only the immediate children, not the grandchildren.
+
+3.Adjacent sibling selector (+): styles the element/sibling immediately following a specific element.
+
+4. General sibling selector (~): selects all siblings that share the same parent and appear after a specified element. 
