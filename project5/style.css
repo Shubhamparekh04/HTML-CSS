@@ -102,7 +102,7 @@ body {
   background-color: #76b900;
   position: fixed;
   top: 19vh;
-  right: -195px;
+  right: -200px;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -110,7 +110,7 @@ body {
 }
 
 #qr-scanner:hover {
-  transform: translate(-195px);
+  transform: translate(-200px);
   transition: transform 2s ease-in-out;
   z-index: 1;
 }
