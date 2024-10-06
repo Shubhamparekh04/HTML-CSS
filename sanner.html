@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #qr-scanner {
+        height: 200px;
+        background-color: #76b900;
+        position: fixed;
+        top: 25vh;
+        right: -190px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        transition: transform 2s 1s ease-in-out;
+        z-index: 1;
+      }
+
+      body {
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+      }
+
+      #qr-scanner:hover {
+        transform: translateX(-190px);
+      }
+
+      span {
+        text-align: center;
+        position: relative;
+        rotate: 270deg;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="qr-scanner">
+      <span>Lets Connect</span>
+      <img
+        height="200px"
+        width="200px"
+        src="./project5/images/shubham.png"
+        alt=""
+        style="object-fit: contain"
+      />
+    </div>
+  </body>
+</html>

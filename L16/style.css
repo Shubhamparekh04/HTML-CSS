@@ -1,0 +1,23 @@
+    #main{
+    height : 200px;
+    display:flex;
+    justify-content: center;
+   border:2px solid red;
+  }
+
+  #outer{
+    display: flex;
+    /* border: 5px solid green; */
+  }
+  
+  #outer>div{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border: 1px solid;
+  }
+
+  #outer>div:nth-child(odd){
+    background-color: black;
+  }
+  

@@ -4,6 +4,33 @@
           |Color, Gradirents, Position, Size, Attachment, Repeat, Image, Background-Blend- Mode|
            ------------------------------------------------------------------------------------
 
+
+Background-image: url ();
+------------------------
+Background-Repeat: Repeat/ no-Repeat / Repeat-x (horizontally repeat) /  repeat-y (vertically repeat) / space / round (image will round off in whole if cropped)
+
+Background-position: (x/y);
+---------------------------
+left top; /center top;/ right top;
+left center; /center center;/ right center;
+left bottom / center bottom;/right bottom;
+
+x%, y%;
+
+background-size:
+----------------
+background-size: cover/ auto / contain  ;
+
+background-size: 1600px 900px;
+
+
+
+shorthad:  background: blue url(./img.jpeg) no-repeat right center; 
+
+
+
+
+
 1. Background-color:
     three ways:
         (a). Hexa code
@@ -11,11 +38,13 @@
         (c). RGB color
 
 2. Gradients:
+background-image: linear-gradiant (top color, bottom color)
+background-image: linear-gradiant (to right , red,orange,yellow,green,blue,indigo,violet)
+
     Go to website & for background gradiant color copy code & paste.
 
 3. Background-Position:
     background-position: left top;/right top/ center center/ 
-                            x(bottom left to  right)  y(top to down)
 
 4. background-size:
     :cover; - Ensures the background image covers the entire container area, possibly cropping parts of the image to fit.

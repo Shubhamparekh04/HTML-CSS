@@ -1,0 +1,6 @@
+2D Transform function.
+
+Transform: translate (x,y) - place according to x & y axis
+Transform: scale(width,height) - size change
+Transform: skew(20deg) - tilt element.
+Transform: rotate().

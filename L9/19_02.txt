@@ -8,11 +8,12 @@ Properties:
 3.color: 
 4.font-weight:  100-900
 5.text-align: right/center/left
-6.line-height: marging from top  bottom of text & rcv height
+6.line-height: margin from top  bottom of text /just like MS Word spacing between two lines.
 7.Letter-spacing : px
 8.word-spacing: px
-9.text-decoration: underline/dotted underline/weavy
-10.font style: can apply single style unlike font family.
-11.text transform: uppercase; [if wants toconvert all text in upper case] //  fullwidth;
+9.text-decoration: underline-overline/dotted underline/weavy
+10.font style: can apply single style unlike font family. bold/italic(oblique)/normal
+11.text-transform: uppercase / capitalized / none
 12.text indent: 10px/rem
 13.Online font attachment.
+

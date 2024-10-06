@@ -1,0 +1,110 @@
+body {
+  width: 900px;
+  margin: 0px;
+  position: relative;
+}
+
+.parent {
+  border: 1px solid black;
+  padding: 20px;
+  width: auto;
+  position: absolute;
+  left: 450px;
+}
+
+#mapp {
+  /* border: 1px solid black; */
+  width: fit-content;
+  padding: 15px;
+}
+
+#supin {
+  display: flex;
+  gap: 25px;
+  /* border: 1px solid black; */
+  padding: 20px 20px;
+}
+
+.head {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.seconddiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+.imgdiv,
+.tagline {
+  /* border: 1px solid black; */
+  padding: 5px;
+}
+
+.imgdiv {
+  width: auto;
+}
+
+.tagline {
+  width: auto;
+  text-align: center;
+}
+
+#tagline1 {
+  display: flex;
+  margin: 20px;
+  gap: 15px;
+}
+
+#tagline2 {
+  display: flex;
+  margin: 20px;
+  gap: 15px;
+}
+
+#d1,
+#d2,
+#d3,
+#d4 {
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.tagline h1 {
+  margin-bottom: 45px;
+  margin-top: 0px;
+}
+
+.lastdiv {
+  margin-top: 15px;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+#div01,
+#div02,
+#div03,
+#div04 {
+  border: 1px solid black;
+  width: 250px;
+  height: 150px;
+  padding: 60px;
+}
+
+#div01,
+#div03 {
+  margin-bottom: 40px;
+  /* background-color: aqua; */
+}
+
+footer {
+  margin-top: 15px;
+  width: auto;
+  height: 100px;
+  border: 1px solid black;
+}

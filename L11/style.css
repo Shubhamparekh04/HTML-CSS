@@ -1,60 +1,58 @@
-body{
-    background-image: url(./sun.jpg);
-    /* background-color: purple; */
-    background-blend-mode: lighten;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    
-    /* display: flex; */
-    /* flex-direction: column; */
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+body {
+  background-image: linear-gradient(rgba(255, 0, 0, 0.202) , rgba(0, 157, 255, 0.785)) , url(./sun.jpg);
+  /* background-color: purple; */
+  /* background-blend-mode: lighten; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /* display: flex; */
+  /* flex-direction: column; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
-.page1{
-    position: relative;
-    top: 50px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    height: 320px;
-    width: 330px;
-    gap: 10px;
-    border: 5px solid white;
-    justify-content: center;
-    border-radius: 20px;
-  
-    -webkit-backdrop-filter: blur(2px);
-    backdrop-filter: blur(2px);
+.page1 {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 320px;
+  width: 330px;
+  gap: 10px;
+  border: 5px solid white;
+  justify-content: center;
+  border-radius: 20px;
+
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 
-
-label{
-    margin: 0px 0px 0px 10px;
+label {
+  margin: 0px 0px 0px 10px;
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-input{
-    width: 250px;
-    height:25px;
-    border-radius: 10px;
-    margin: 5px 40px;
+input {
+  width: 250px;
+  height: 25px;
+  border-radius: 10px;
+  margin: 5px 40px;
 }
 
-input[value="Login"]{
-
-    height: 30px;
-    width: 150px;
-    gap: 5px;
-    margin: 0px 100px;
+input[value="Login"] {
+  height: 30px;
+  width: 150px;
+  gap: 5px;
+  margin: 0px 100px;
 }
 
-#dg{
-    margin-top: 15px;
+#dg {
+  margin-top: 15px;
 }

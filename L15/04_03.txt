@@ -8,3 +8,6 @@ Combinators: symbols for specifying relationships between HTML elements in a sin
 3.Adjacent sibling selector (+): styles the element/sibling immediately following a specific element.
 
 4. General sibling selector (~): selects all siblings that share the same parent and appear after a specified element. 
+
+
+

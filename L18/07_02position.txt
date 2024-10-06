@@ -1,0 +1,12 @@
+Positions:
+static / relative / absolute / fixed
+
+z index, overflow
+
+overflow: scroll & auto works same.
+hidden./visible.
+
+--------------
+transitions
+
+#

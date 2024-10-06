@@ -1,0 +1,8 @@
+font awesome svg icons:
+
+go to - https://cdnjs.com/libraries/font-awesome -  website
+copy first </> copy link tag  & paste in header
+
+go to - https://fontawesome.com/
+
+Select icon copy it's link in body

@@ -1,0 +1,7 @@
+Flex-wrap: wrap/ wrap-reverse / no-wrap 
+flex-flow: (flex-direction: row or column/ flex-wrap)
+justify-content: flex-start/flex-end / space-evenly (space equally distribute)/ space-around (between space will be equal space distribute) / space-between
+
+align-content: flex-start/flex-end (to vertically move item).
+should have more content than single line in order to work 
+[flex-end]

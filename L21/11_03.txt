@@ -1,0 +1,8 @@
+Flex basis: auto/px (will change in width)/--
+Flex-grow: number 
+Flex-shrink:  
+Order: lesser the value earlier the box higher the number later/last the box(element)
+Align-self: to center on particular element. [Align-item]   start/end/ center/baseline/stretch
+
+if align item & justify content is applied  stretch property will not work.
+

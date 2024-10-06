@@ -1,2 +1,26 @@
 Float:
 clear: left/ right/ both
+
+
+image:
+
+object-fit: cover/contain/ fill, scale-down and none.;
+
+object-fit is a CSS property that controls how images or videos fit inside their containers.
+--------------------------------------------------------------------------------------------
+
+
+It has different options:
+
+fill: The image stretches to completely fill the container, which might distort its shape.
+contain: The image fits inside the container while keeping its original proportions.
+cover: The image covers the container completely, possibly cutting off some parts.
+none or scale-down: The image keeps its original size unless it's too large, in which case it's scaled down.
+
+
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -9,5 +9,9 @@ attributes: control/autoplay/muted/loop
     <source src="url"/>
 </vieo>
 
+other
+
+<video src="" controls autoplay > </video>
+
 <iframe>if need to include other web page / it will load in same page</iframe>
 

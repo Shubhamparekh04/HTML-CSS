@@ -1,0 +1,10 @@
+boot-strap:
+-----------
+
+BT-JQ_FSD-
+
+1. jquery- is  library 
+
+with css animation not possible on any user interaction so j query introduced
+can be used same as font offline tag & cdn link.
+
